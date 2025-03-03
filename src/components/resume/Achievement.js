@@ -21,7 +21,7 @@ const Achievement = () => {
             result="Intern"
             des="Contributed to the development of financial applications, focusing on seamless integration between front-end and back-end systems. Gained hands-on experience in full-stack development using modern frameworks."
           />
-           <ResumeCard
+          <ResumeCard
             title="UI/US Design."
             subTitle="David Smart Soft."
             result="Learning"

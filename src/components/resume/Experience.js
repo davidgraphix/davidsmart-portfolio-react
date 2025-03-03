@@ -1,5 +1,5 @@
 import React from "react";
-import {motion} from "framer-motion"
+import { motion } from "framer-motion";
 import ResumeCard from "./ResumeCard";
 
 const Experience = () => {
@@ -7,11 +7,13 @@ const Experience = () => {
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
-      className="py-12 font-titleFont flex gap-20"
+      className="py-12 font-titleFont flex flex-col gap-20 lgl:flex-row"
     >
       <div>
         <div className="flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2021 - Present</p>
+          <p className="text-sm text-designColor tracking-[4px]">
+            2021 - Present
+          </p>
           <h2 className="text-4xl font-bold">Work Experience(Tech)</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
@@ -33,16 +35,17 @@ const Experience = () => {
             result="Lagos"
             des="Designing intuitive and visually appealing user interfaces with a strong focus on user experience. Skilled in using tools like Figma and Adobe XD to bring ideas to life."
           />
-          
         </div>
       </div>
       <div>
         <div className="flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2019 - Present</p>
+          <p className="text-sm text-designColor tracking-[4px]">
+            2019 - Present
+          </p>
           <h2 className="text-4xl font-bold">Work Experience</h2>
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
-        <ResumeCard
+          <ResumeCard
             title="Graphic Designer"
             subTitle="WordSoft ent. - (2019 - Present)"
             result="Lagos"
