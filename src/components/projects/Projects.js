@@ -26,7 +26,7 @@ const Projects = () => {
         <a
           target="_blank"
           rel="noreferrer"
-          href="davvidsmartrealestate.netlify.app"
+          href="https://davvidsmartrealestate.netlify.app"
         >
           <ProjectsCard
             title="REAL ESTATE WEBSITE"
