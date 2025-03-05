@@ -90,7 +90,7 @@ const Projects = () => {
         <a
           target="_blank"
           rel="noreferrer"
-          href="https://davidgraphix.github.io/Weather-Apps/"
+          href="https://david-tik-tak-toe-game.vercel.app/"
         >
           <ProjectsCard
             title="Tik-Tak-Toe Game"
