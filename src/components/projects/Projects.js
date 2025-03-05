@@ -111,8 +111,7 @@ const Projects = () => {
         >
           <ProjectsCard
             title="Responsive Portfolio"
-            des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+            des=" Visit my other portfolio webusite!"
             src={projectSix}
           />
         </a>
