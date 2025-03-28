@@ -11,13 +11,31 @@ const Footer = () => {
         <img className="w-32" src={logo} alt="logo" />
         <div className="flex gap-4">
           <span className="bannerIcon">
-            <FaGithub />
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/davidgraphix/"
+            >
+              <FaGithub />
+            </a>
           </span>
           <span className="bannerIcon">
-            <FaTwitter />
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://twitter.com/iam_david_smart"
+            >
+              <FaTwitter />
+            </a>
           </span>
           <span className="bannerIcon">
-            <FaLinkedinIn />
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.linkedin.com/in/david-bamidele-8b8249359/"
+            >
+              <FaLinkedinIn />
+            </a>
           </span>
         </div>
       </div>
@@ -68,7 +86,9 @@ const Footer = () => {
           </li>
           <li>
             <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              <a href="https://github.com/davidgraphix/">Linkedin</a>
+              <a href="https://www.linkedin.com/in/david-bamidele-8b8249359//">
+                Linkedin
+              </a>
 
               <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
             </span>

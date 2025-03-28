@@ -26,6 +26,21 @@ const Projects = () => {
         <a
           target="_blank"
           rel="noreferrer"
+          href="https://cryptoplace-liard.vercel.app/"
+        >
+          <ProjectsCard
+            title="Crypto Place"
+            des="CryptoPlace is a modern and user-friendly cryptocurrency
+             platform that provides real-time insights into the latest crypto
+              trends, market prices, and essential details for traders and investors. 
+               it offers a seamless experience 
+              for staying updated on the crypto world. 🚀💰"
+            src={projectSix}
+          />
+        </a>
+        <a
+          target="_blank"
+          rel="noreferrer"
           href="https://davvidsmartrealestate.netlify.app"
         >
           <ProjectsCard
@@ -101,18 +116,6 @@ const Projects = () => {
             they make their moves. Key Features: Two-Player Mode: Compete 
             with a friend on a classic 3x3 board. Dynamic Game State: Tracks moves"
             src={projectFive}
-          />
-        </a>
-
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="https://davidgraphix.github.io/david-portfolio-2024/"
-        >
-          <ProjectsCard
-            title="Responsive Portfolio"
-            des=" Visit my other portfolio webusite!"
-            src={projectSix}
           />
         </a>
       </div>

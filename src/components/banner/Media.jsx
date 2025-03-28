@@ -29,7 +29,7 @@ const Media = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://github.com/davidgraphix/"
+              href="https://www.linkedin.com/in/david-bamidele-8b8249359/"
             >
               <FaLinkedinIn />
             </a>
