@@ -53,7 +53,7 @@ const ContactLeft = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://www.linkedin.com/in/david-bamidele-8b8249359/"
+              href="https://www.linkedin.com/in/david-smart-bamidele "
             >
               <FaLinkedinIn />
             </a>

@@ -27,7 +27,7 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          Versatile Fullstack developer with 3+ years of experience building
+          Versatile Fullstack developer with 4+ years of experience building
           dynamic web applications using modern tools like React, TypeScript,
           and .NET... Combines strong technical skills with creative expertise
           in photography and graphic design to craft user-friendly and visually
