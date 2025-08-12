@@ -7,6 +7,8 @@ import {
   projectFour,
   projectFive,
   projectSix,
+  projectSeven,
+  projectEight,
 } from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 
@@ -23,6 +25,37 @@ const Projects = () => {
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
+        {/* E-commerse */}
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://e-commerse-chi.vercel.app/"
+        >
+          <ProjectsCard
+            title="E-commerse"
+            des="Full-Stack E-Commerce Website – 
+            A fully functional online store with product browsing, 
+            cart management, secure checkout, and responsive UI, built
+             using modern full-stack technologies and deployed on Vercel."
+            src={projectEight}
+          />
+        </a>
+
+        {/* Dashboard*/}
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://dashboard-sable-beta-28.vercel.app/"
+        >
+          <ProjectsCard
+            title="Dashboard"
+            des="A sleek, data-driven dashboard with interactive charts,
+             analytics, and intuitive navigation, designed for efficient 
+             management and monitoring of key metrics."
+            src={projectSeven}
+          />
+        </a>
+        {/* Crypto Place */}
         <a
           target="_blank"
           rel="noreferrer"
@@ -38,6 +71,7 @@ const Projects = () => {
             src={projectSix}
           />
         </a>
+        {/* Real Estate Website */}
         <a
           target="_blank"
           rel="noreferrer"
@@ -53,6 +87,7 @@ const Projects = () => {
             src={projectOne}
           />
         </a>
+        {/* Photography Portfolio */}
         <a
           target="_blank"
           rel="noreferrer"
@@ -68,7 +103,7 @@ const Projects = () => {
             src={projectTwo}
           />
         </a>
-
+        {/* Weather App */}
         <a
           target="_blank"
           rel="noreferrer"
@@ -84,7 +119,7 @@ const Projects = () => {
             src={projectThree}
           />
         </a>
-
+        {/* Quiz App */}
         <a
           target="_blank"
           rel="noreferrer"
@@ -101,7 +136,7 @@ const Projects = () => {
             src={projectFour}
           />
         </a>
-
+        {/* Tik-Tak-Toe Game */}
         <a
           target="_blank"
           rel="noreferrer"
